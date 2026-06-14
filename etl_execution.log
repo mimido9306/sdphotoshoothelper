@@ -1,0 +1,71 @@
+2026-06-07 15:24:15,184 [INFO] ==================================================
+2026-06-07 15:24:15,185 [INFO] STARTING WEATHER PIPELINE RUN
+2026-06-07 15:24:15,186 [INFO] ==================================================
+2026-06-07 15:24:15,221 [CRITICAL] ETL Execution sequence broke due to critical exceptions: No module named 'psycopg2'
+2026-06-07 15:25:09,320 [INFO] ==================================================
+2026-06-07 15:25:09,321 [INFO] STARTING WEATHER PIPELINE RUN
+2026-06-07 15:25:09,321 [INFO] ==================================================
+2026-06-07 15:25:10,646 [INFO] Initiating extraction sequence from file source: open-meteo-32.72N117.15W12m.csv
+2026-06-07 15:25:10,647 [ERROR] Extraction step failed catastrophically: Source data file targets missing at: /Users/mimido/Desktop/MSBA 692/open-meteo-32.72N117.15W12m.csv
+2026-06-07 15:25:10,647 [CRITICAL] ETL Execution sequence broke due to critical exceptions: Source data file targets missing at: /Users/mimido/Desktop/MSBA 692/open-meteo-32.72N117.15W12m.csv
+2026-06-07 15:30:00,130 [INFO] ==================================================
+2026-06-07 15:30:00,131 [INFO] STARTING WEATHER PIPELINE RUN
+2026-06-07 15:30:00,131 [INFO] ==================================================
+2026-06-07 15:30:00,133 [INFO] Initiating extraction sequence from file source: open-meteo-32.72N117.15W12m.csv
+2026-06-07 15:30:00,188 [INFO] Extraction successful. Current rows: 1, Daily rows: 7
+2026-06-07 15:30:00,188 [INFO] Executing initial input layer data validation suite...
+2026-06-07 15:30:00,191 [INFO] Stage 1 Data Validation passed. Structural dimensions verified.
+2026-06-07 15:30:00,191 [INFO] Beginning data cleaning and attribute normalization phase...
+2026-06-07 15:30:00,207 [INFO] Cleaning and conversion computations finished successfully.
+2026-06-07 15:30:00,207 [INFO] Computing derived metrics and photoshoot optimization profiles...
+2026-06-07 15:30:00,212 [INFO] Derived structural transformation analytics completed successfully.
+2026-06-07 15:30:00,212 [INFO] Running Stage 2 Data Quality Engineering sanity checks...
+2026-06-07 15:30:00,214 [INFO] Data Quality Engineering validation rules successfully cleared.
+2026-06-07 15:30:00,214 [INFO] Initiating database incremental loading sequence...
+2026-06-07 15:30:02,468 [ERROR] Database operation crashed during table write tracking: (psycopg2.OperationalError) connection to server at "db.rtkcdqupevlyeudduwzg.supabase.co" (2600:1f14:271:c002:edaf:cd40:37f8:a090), port 5432 failed: FATAL:  password authentication failed for user "postgres"
+connection to server at "db.rtkcdqupevlyeudduwzg.supabase.co" (2600:1f14:271:c002:edaf:cd40:37f8:a090), port 5432 failed: FATAL:  password authentication failed for user "postgres"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-06-07 15:30:02,470 [CRITICAL] ETL Execution sequence broke due to critical exceptions: (psycopg2.OperationalError) connection to server at "db.rtkcdqupevlyeudduwzg.supabase.co" (2600:1f14:271:c002:edaf:cd40:37f8:a090), port 5432 failed: FATAL:  password authentication failed for user "postgres"
+connection to server at "db.rtkcdqupevlyeudduwzg.supabase.co" (2600:1f14:271:c002:edaf:cd40:37f8:a090), port 5432 failed: FATAL:  password authentication failed for user "postgres"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-06-07 15:32:46,803 [INFO] ==================================================
+2026-06-07 15:32:46,804 [INFO] STARTING WEATHER PIPELINE RUN
+2026-06-07 15:32:46,805 [INFO] ==================================================
+2026-06-07 15:32:46,806 [INFO] Initiating extraction sequence from file source: open-meteo-32.72N117.15W12m.csv
+2026-06-07 15:32:46,810 [INFO] Extraction successful. Current rows: 1, Daily rows: 7
+2026-06-07 15:32:46,810 [INFO] Executing initial input layer data validation suite...
+2026-06-07 15:32:46,811 [INFO] Stage 1 Data Validation passed. Structural dimensions verified.
+2026-06-07 15:32:46,811 [INFO] Beginning data cleaning and attribute normalization phase...
+2026-06-07 15:32:46,815 [INFO] Cleaning and conversion computations finished successfully.
+2026-06-07 15:32:46,815 [INFO] Computing derived metrics and photoshoot optimization profiles...
+2026-06-07 15:32:46,816 [INFO] Derived structural transformation analytics completed successfully.
+2026-06-07 15:32:46,817 [INFO] Running Stage 2 Data Quality Engineering sanity checks...
+2026-06-07 15:32:46,817 [INFO] Data Quality Engineering validation rules successfully cleared.
+2026-06-07 15:32:46,817 [INFO] Initiating database incremental loading sequence...
+2026-06-07 15:32:46,874 [ERROR] Database operation crashed during table write tracking: (psycopg2.OperationalError) could not translate host name "db.rtkcdqupevlyeudduwzg.supabase.co" to address: nodename nor servname provided, or not known
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-06-07 15:32:46,875 [CRITICAL] ETL Execution sequence broke due to critical exceptions: (psycopg2.OperationalError) could not translate host name "db.rtkcdqupevlyeudduwzg.supabase.co" to address: nodename nor servname provided, or not known
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-06-07 15:35:23,157 [INFO] ==================================================
+2026-06-07 15:35:23,159 [INFO] STARTING WEATHER PIPELINE RUN
+2026-06-07 15:35:23,159 [INFO] ==================================================
+2026-06-07 15:35:23,160 [INFO] Initiating extraction sequence from file source: open-meteo-32.72N117.15W12m.csv
+2026-06-07 15:35:23,165 [INFO] Extraction successful. Current rows: 1, Daily rows: 7
+2026-06-07 15:35:23,165 [INFO] Executing initial input layer data validation suite...
+2026-06-07 15:35:23,165 [INFO] Stage 1 Data Validation passed. Structural dimensions verified.
+2026-06-07 15:35:23,165 [INFO] Beginning data cleaning and attribute normalization phase...
+2026-06-07 15:35:23,169 [INFO] Cleaning and conversion computations finished successfully.
+2026-06-07 15:35:23,169 [INFO] Computing derived metrics and photoshoot optimization profiles...
+2026-06-07 15:35:23,171 [INFO] Derived structural transformation analytics completed successfully.
+2026-06-07 15:35:23,171 [INFO] Running Stage 2 Data Quality Engineering sanity checks...
+2026-06-07 15:35:23,172 [INFO] Data Quality Engineering validation rules successfully cleared.
+2026-06-07 15:35:23,172 [INFO] Initiating database incremental loading sequence...
+2026-06-07 15:35:24,242 [INFO] Transaction tracking row added to table: current_weather.
+2026-06-07 15:35:24,391 [INFO] Incremental load complete. Added 7 new forecast rows.
+2026-06-07 15:35:24,425 [INFO] ==================================================
+2026-06-07 15:35:24,425 [INFO] WEATHER PIPELINE WORKFLOW EXECUTION SUCCESSFUL
+2026-06-07 15:35:24,425 [INFO] ==================================================

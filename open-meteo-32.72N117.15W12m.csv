@@ -1,0 +1,14 @@
+latitude,longitude,elevation,utc_offset_seconds,timezone,timezone_abbreviation
+32.720078,-117.15093,44.0,-25200,America/Los_Angeles,GMT-7
+
+time,temperature_2m (°C),relative_humidity_2m (%),apparent_temperature (°C),precipitation (mm),weather_code (wmo code),cloud_cover (%),wind_speed_10m (km/h)
+2026-06-07T12:15,20.0,69,19.4,0.00,2,74,13.9
+
+time,weather_code (wmo code),temperature_2m_max (°C),temperature_2m_min (°C),sunrise (iso8601),sunset (iso8601),precipitation_sum (mm),wind_speed_10m_max (km/h)
+2026-06-07,3,21.4,16.8,2026-06-07T05:40,2026-06-07T19:54,0.00,15.3
+2026-06-08,3,20.3,14.4,2026-06-08T05:40,2026-06-08T19:55,0.00,15.0
+2026-06-09,0,21.3,12.7,2026-06-09T05:40,2026-06-09T19:55,0.00,15.1
+2026-06-10,0,20.5,18.2,2026-06-10T05:40,2026-06-10T19:56,0.00,17.9
+2026-06-11,3,23.3,17.8,2026-06-11T05:40,2026-06-11T19:56,0.00,13.4
+2026-06-12,2,25.3,19.4,2026-06-12T05:40,2026-06-12T19:56,0.00,17.7
+2026-06-13,0,25.2,19.9,2026-06-13T05:40,2026-06-13T19:57,0.00,19.8
